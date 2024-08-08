@@ -15,7 +15,7 @@ function createMessageArray(numMessages) {
 }
 
 function myFunction() {
-  const targetSubjects = ['Atmos mixing', 'Re: Atmos mixing']; //CHANGE THIS TO SELECT DESIRED THREADS BY SUBJECT
+  const targetSubjects = ['Subject 1', 'Subject 2']; //CHANGE THIS TO SELECT DESIRED THREADS BY SUBJECT
   const query = targetSubjects.map(subject => `subject:"${subject}"`).join(' OR ');
   const threadArr = GmailApp.search(query, 0, 10);
 
