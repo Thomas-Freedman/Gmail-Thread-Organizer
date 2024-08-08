@@ -6,4 +6,4 @@ The motivation behind this project was that an employer of mine had an email thr
 
 ## Usage
 
-The code provided was implemented in Google Apps Script. Running the script with myFunction as the target and enumerating a list of desired email threads by subject in the first line of myFunction -- const targetSubjects = ['Subject 1', 'Subject 2']; -- will produce a downloadable text file containing every email from a thread matching any of the listed subjects in chronological order, in plain text, including sender, date, subject, and body. Note that this is a plain text file and won't contain any attachments. 
+The code provided was implemented in Google Apps Script. Running the script with myFunction as the target and enumerating a list of desired email threads by subject in the first line of myFunction defined in source.gs -- const targetSubjects = ['Subject 1', 'Subject 2']; -- will produce a downloadable text file containing every email from a thread matching any of the listed subjects in chronological order, in plain text, including sender, date, subject, and body. Note that this is a plain text file and won't contain any attachments. 
